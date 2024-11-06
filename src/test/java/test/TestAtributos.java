@@ -34,7 +34,7 @@ public class TestAtributos {
 	@Test
    	public void testAtributosAuto(){
 		
-		Asiento v = new Asiento();
+		Auto v = new Auto();
 		v.asientos = new Asiento[5];
 		v.marca = "tesla";
 		v.modelo = "model 3";
