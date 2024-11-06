@@ -72,7 +72,7 @@ public class TestMetodos {
 	@Test
    	public void testMetodoCantidadAsientos(){
 		
-		Auto a = new Auto();
+		Asiento a = new Asiento();
 		
 		a.asientos = new Asiento[5];
 		
@@ -91,7 +91,7 @@ public class TestMetodos {
 	@Test
    	public void testMetodoVerificarIntegridad(){
 		
-		Auto a = new Auto();
+		Asiento a = new Asiento();
 		Motor m = new Motor();
 		a.registro = 32;
 		m.registro = 32;
@@ -103,7 +103,7 @@ public class TestMetodos {
 		a.asientos[4].registro = 32;
 		
 		
-		Auto a2 = new Auto();
+		Asiento a2 = new Asiento();
 		Motor m2 = new Motor();
 		a2.registro = 32;
 		m2.registro = 32;
