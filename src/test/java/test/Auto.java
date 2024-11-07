@@ -9,7 +9,7 @@ public class Auto {
     int registro;
     static String cantidadCreados;
     public int cantidadAsientos(){
-        contado=0;
+        int contador=0;
         for (int i=0; i<asientos.length; ++i) {
             if (asientos[i] instanceof Asiento) {
                 contador+=1;
