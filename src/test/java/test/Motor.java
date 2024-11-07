@@ -7,7 +7,7 @@ public class Motor {
     public void cambiarRegistro(int s){
         this.registro = s;
     }
-    public void cambiarTipo(String s){
+    public void asignarTipo(String s){
         switch (s) {
             case "electrico":
                 this.tipo = s;
